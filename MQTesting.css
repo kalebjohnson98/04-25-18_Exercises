@@ -1,0 +1,21 @@
+.container {
+    padding: 50px;
+    background-color: aqua;
+}
+@media only screen and (min-width: 380px){
+    .question {
+      font-size: 24px;
+    }
+    .answer {
+        font-size: 18px;
+      }
+    }
+@media only screen and (min-width: 780px){
+    .question {
+        font-size: 48px;
+        text-align: left;
+    }
+    .answer {
+        font-size: 24px;
+      }
+    }
